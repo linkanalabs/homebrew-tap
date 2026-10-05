@@ -1,0 +1,19 @@
+Casks/lk.rb
+  s_e1219ff26cf34b::t_10103ea10633a1 36-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0a63989bb902a3c09f6afa1385c00d5cf6b3bba7",
+  "prompts": {},
+  "sessions": {
+    "s_e1219ff26cf34b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e84950a2-49c3-4760-9997-0737a7d627ff",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Djalma Araújo <djalma@nossomos.cc>"
+    }
+  }
+}
