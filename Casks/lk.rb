@@ -6,25 +6,25 @@ cask "lk" do
     end
   end
 
-  version "0.21.0"
+  version "0.22.0"
 
   on_macos do
     on_arm do
-      sha256 "984fb4af4867758a7e895b470749b348365691bb45f05148057fae36c9b5a979"
+      sha256 "deb3d20896b886cb22ed0dd3b8feb071c25e15810dd9334d6e95f502767e43dc"
       url "https://github.com/linkanalabs/cli/releases/download/v#{version}/lk_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a549e290e2513349c83cab43f0402354ff3c5f7bfd4cfbebe6b770597df1b8ff"
+      sha256 "95c1946e0a9a7f594d24d9fce0c2382fc7749a4c7d9a205d42169063742244fb"
       url "https://github.com/linkanalabs/cli/releases/download/v#{version}/lk_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "409b292cd2981c2306cede87eec37ab9b2042a3fb65629bd24a22d080548e08c"
+      sha256 "8797ac16f13bb528da6ff907491648f8df15a561522e080e3b9782160b40286f"
       url "https://github.com/linkanalabs/cli/releases/download/v#{version}/lk_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "617b845b58fe8c33a97118dcc2dc0451b41bb4d207cc351ffcb590e849caa47d"
+      sha256 "fc2a6a280d0b009ae5db51354bd101434b1d8676d2de92fa49b02926bf1d6937"
       url "https://github.com/linkanalabs/cli/releases/download/v#{version}/lk_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -39,5 +39,5 @@ cask "lk" do
 
   binary "lk"
 
-  # No zap stanza required
+  zap :not_required
 end
